@@ -5,9 +5,9 @@
 Running Kubernetes at home has traditionally meant dealing with the overhead of full Linux distributions, manual cluster setup, and the complexity of production-grade networking. This repository solves those pain points by leveraging **Talos Linux** a minimal, immutable, API-driven OS built specifically for Kubernetes - combined with **Traefik** for seamless ingress routing.
 
 **Problems this solves:**
-- **No OS maintenance overhead** - Talos is immutable and managed entirely via API, no SSH or package updates
+- **No OS maintenance overhead** - Talos is immutable and managed entirely via API
 - **Fully reproducible** - Destroy and rebuild your entire cluster in minutes with simple scripts
-- **Production-grade networking** - MetalLB LoadBalancer + Traefik ingress give you real cloud-like networking at home
+- **Production-grade networking** - MetalLB LoadBalancer + Traefik ingress
 - **Automated workflows** - Scripts handle VM creation, node provisioning, and cluster joining automatically
 - **Zero cloud costs** - Learn production Kubernetes patterns on your own hardware without monthly bills
 - **Secure by default** - Minimal attack surface with no SSH, shell access, or unnecessary packages
