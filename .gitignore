@@ -1,0 +1,4 @@
+headlamp-token.txt
+*.yaml
+talosconfig
+kubeconfig
